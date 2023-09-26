@@ -21,6 +21,7 @@ nav{
 
 label.logo{
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-size: 40px;
     line-height: 80px;
     padding: 0 40px;
@@ -69,7 +70,10 @@ nav ul li a{
     position: relative;
     top: 5px;
     left: 5px;
-    
+}
+
+a:hover{
+    color:red;
 }
 
 .main h1{
@@ -79,5 +83,37 @@ nav ul li a{
     font-size: 45px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
+    top: 15px;
+}
+
+.container{
+    text-align: center;
+}
+
+#inperson{
+    float: left;
+    width: 50%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#inperson p{
+    font-size: 25px;
+    position: relative;
+    left: 35px;
     top: 55px;
+}
+
+#inperson li{
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+    top: 75px;
+}
+
+#online{
+    float: right;
+    width: 50%;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
