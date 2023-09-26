@@ -18,7 +18,7 @@ nav{
 
 label.logo{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 80px;
     padding: 0 40px;
     font-weight: bold;
@@ -38,7 +38,7 @@ label.social{
 
 }
 
-.social :hover{
+.social:hover{
     color: chocolate;
 }
 
@@ -82,7 +82,7 @@ a.active,a:hover{
 
 @media (max-width: 952px){
     label.logo{
-        font-size: 31px;
+        font-size: 35px;
         padding-left: 40px;
     }
     label.social{
