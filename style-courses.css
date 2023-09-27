@@ -9,7 +9,7 @@
 .main{
     background: url(/images/Courses2.jpg);
     background-size: cover;
-    height: 90.5vh;
+    height: 88.5vh;
     width: 100%;
 }
 
@@ -87,33 +87,73 @@ a:hover{
 }
 
 .container{
-    text-align: center;
+   text-align: center;
+   position: relative;
+   top: 60px;
 }
 
-#inperson{
+#private{
     float: left;
     width: 50%;
-    padding: 0 30px;
+    height: 450px;
+    padding: 0 90px;
     box-sizing: border-box;
+    border-style: dotted;
+    border-color: #0082e6;
+    border-radius: 50px;
 }
 
-#inperson p{
+#private h2{
     font-size: 25px;
     position: relative;
     left: 35px;
     top: 55px;
+    background-color: #0082e61c;
 }
 
-#inperson li{
+#private h3{
+    font-size: 22px;
+    position: relative;
+    left: 35px;
+    top: 85px;
+}
+
+#private li{
     font-size: 20px;
     position: relative;
     left: 35px;
-    top: 75px;
+    top: 105px;
+    text-decoration: underline;
+    padding: 5px 0;
 }
 
-#online{
+#group{
     float: right;
     width: 50%;
-    padding: 0 30px;
+    padding: 0 90px;
     box-sizing: border-box;
+}
+
+#group h2{
+    font-size: 25px;
+    position: relative;
+    left: 35px;
+    top: 55px;
+    background-color: #0082e61c;
+}
+
+#group h3{
+    font-size: 22px;
+    position: relative;
+    left: 35px;
+    top: 85px;
+}
+
+#group li{
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+    top: 105px;
+    text-decoration: underline;
+    padding: 5px 0;
 }
