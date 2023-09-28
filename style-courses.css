@@ -69,7 +69,7 @@ nav ul li a{
     font-size: 18px;
     position: relative;
     top: 5px;
-    left: 5px;
+    left: 15px;
 }
 
 a:hover{
@@ -169,10 +169,7 @@ a:hover{
 
 @media(max-width:1200px){
     label.logo{
-        font-size: 34px;
-    }
-    label.social{
-        font-size: 14px;
+        font-size: 38px;
     }
     .main{
         height: 118vh;
