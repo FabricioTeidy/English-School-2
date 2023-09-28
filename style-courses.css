@@ -172,7 +172,7 @@ a:hover{
         font-size: 38px;
     }
     .main{
-        height: 118vh;
+        height: 122vh;
     }
     #private{
         width: 100%;
@@ -186,6 +186,8 @@ a:hover{
         width: 100%;
         float: none;
         padding: 0 40px;
+        position: relative;
+        top: 10px;
     }
     #group li{
         font-size: 18px;
