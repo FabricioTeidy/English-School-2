@@ -39,6 +39,7 @@ label.social{
 
 .social:hover{
     color: chocolate;
+    background: none;
 }
 
 nav ul{
