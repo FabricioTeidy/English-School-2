@@ -180,3 +180,9 @@ a.active,a:hover{
         height: 100%;
     }
 }
+
+@media(max-width:600px){
+    .content h1{
+        padding: 0 5px;
+    }
+}
