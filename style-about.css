@@ -109,7 +109,7 @@ a:hover{
 .photo-text img{
     width: 60%;
     position: relative;
-    top: 65px;
+    top: 55px;
 }
 
 @media(max-width:1200px){
@@ -130,6 +130,6 @@ a:hover{
         padding: 50px 45px;
     }
     .main{
-        height: 130vh;
+        height: 100vh;
     }
 }

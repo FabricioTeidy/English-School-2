@@ -167,7 +167,7 @@ a:hover{
     border-color: rgba(0, 0, 0, 0.384);
 }
 
-@media(max-width:1200px){
+@media(max-width:1170px){
     label.logo{
         font-size: 38px;
     }

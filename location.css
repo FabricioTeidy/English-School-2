@@ -89,11 +89,11 @@ a:hover{
     padding-top: 5px;
 }
 
-@media(max-width:1200px){
+@media(max-width:650px){
     label.logo{
         font-size: 38px;
     }
-    .main p{
-
+    .main iframe{
+        width: 92%;
     }
 }
